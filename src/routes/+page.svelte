@@ -10,12 +10,18 @@
 	/>
 </svelte:head>
 
-<div class="flex w-screen justify-center absolute left-0 top-8">
+<div
+	class="block lg:flex w-max lg:w-screen justify-center absolute left-2 lg:left-0 top-40 h-max"
+>
 	<Typewriter mode={"cascade"}>
-		<div class="m-auto mt-10" style="width: 600px;">
-			<h1 class="w-max text-4xl mt-40">Welcome to CheesyPhoenix.tk!</h1>
+		<div class="m-auto mt-10 w-[370px] lg:w-[600px]">
+			<h1 class="w-max text-2xl lg:text-4xl">
+				Welcome to CheesyPhoenix.tk!
+			</h1>
 
-			<p class="w-max text-2xl mt-5">What would you like to do?</p>
+			<p class="w-max text-lg lg:text-2xl mt-5">
+				What would you like to do?
+			</p>
 
 			<a
 				href="/projects"
