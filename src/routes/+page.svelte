@@ -26,13 +26,13 @@
 			<a
 				href="/projects"
 				class="w-max text-lg mt-5 block hover:underline underline-offset-2"
-				>- Browse projects</a
+				title="View projects">- Browse projects</a
 			>
 
 			<a
 				href="https://github.com/CheesyPhoenix"
 				class="w-max text-lg mt-5 block hover:underline underline-offset-2"
-				>- View GitHub</a
+				title="View GitHub">- View GitHub</a
 			>
 		</div>
 	</Typewriter>
