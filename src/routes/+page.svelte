@@ -10,6 +10,9 @@
 	/>
 </svelte:head>
 
+<!-- SEO -->
+<h1 class="w-max text-2xl lg:text-4xl hidden">Welcome to CheesyPhoenix.tk!</h1>
+
 <div
 	class="block lg:flex w-max lg:w-screen justify-center absolute left-2 lg:left-0 top-40 h-max"
 >
