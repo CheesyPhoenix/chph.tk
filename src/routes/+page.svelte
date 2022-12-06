@@ -3,7 +3,7 @@
 </script>
 
 <svelte:head>
-	<title>Home</title>
+	<title>CheesyPhoenix | Home</title>
 	<meta
 		name="description"
 		content="Welcome to CheesyPhoenix.tk. What do you want to do? Browse my projects or view my GitHub page?"

@@ -5,7 +5,7 @@
 </script>
 
 <svelte:head>
-	<title>Projects</title>
+	<title>CheesyPhoenix | Projects</title>
 	<meta
 		name="description"
 		content="Here you can view and read about my various projects"
