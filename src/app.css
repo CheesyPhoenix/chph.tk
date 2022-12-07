@@ -3,5 +3,5 @@
 @tailwind utilities;
 
 body {
-	@apply font-mono to-slate-900 from-zinc-900 bg-gradient-to-b text-slate-400;
+	@apply font-mono to-slate-900 from-zinc-900 bg-gradient-to-br text-slate-400;
 }
