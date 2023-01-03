@@ -2,6 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-body {
+body:not(.prose *) {
 	@apply font-mono to-slate-900 from-zinc-900 bg-gradient-to-br text-slate-400;
 }
