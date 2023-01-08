@@ -1,5 +1,6 @@
 <script lang="ts">
 	import Typewriter from "svelte-typewriter";
+	import { fade } from "svelte/transition";
 </script>
 
 <svelte:head>
@@ -10,16 +11,14 @@
 	/>
 </svelte:head>
 
-<div
-	class="block lg:flex w-max lg:w-screen justify-center absolute left-2 lg:left-0 top-40 h-max"
->
+<div class="flex w-screen justify-center absolute left-2 top-40 h-max">
 	<Typewriter mode={"cascade"} interval={25}>
-		<div class="m-auto mt-10 w-[370px] lg:w-[600px]">
-			<h1 class="w-max text-2xl lg:text-4xl">
+		<div class="m-auto mt-10 w-[370px] md:w-[600px] max-w-[90%]">
+			<h1 class="w-max text-xl md:text-4xl">
 				Welcome to CheesyPhoenix.tk!
 			</h1>
 
-			<p class="w-max text-lg lg:text-2xl mt-5">
+			<p class="w-max text-md md:text-2xl mt-5">
 				What would you like to do?
 			</p>
 

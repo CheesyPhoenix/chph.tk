@@ -3,5 +3,38 @@
 @tailwind utilities;
 
 body:not(.prose *) {
-	@apply font-mono to-slate-900 from-zinc-900 bg-gradient-to-br text-slate-400;
+	@apply font-mono to-slate-900 from-zinc-900 bg-gradient-to-br text-slate-400 overflow-hidden;
+}
+
+::-webkit-scrollbar {
+	background-color: transparent;
+	width: 8px;
+	height: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+	@apply bg-slate-800 rounded-3xl;
+}
+
+summary > * {
+	display: inline;
+}
+summary {
+	@apply p-4;
+}
+
+details {
+	background-color: #00000022;
+	@apply rounded-xl mb-2 overflow-hidden;
+}
+
+details > .content {
+	@apply p-4;
+}
+
+code::before {
+	display: none;
+}
+code::after {
+	display: none;
 }

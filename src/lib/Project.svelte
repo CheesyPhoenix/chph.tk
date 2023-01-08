@@ -13,6 +13,7 @@
 	href={link}
 	class="flex from-gray-800 to-zinc-800 hover:to-zinc-700 duration-300 transition-all bg-gradient-to-r rounded-2xl w-[90%] max-w-[40rem] p-4 space-x-4 ml-4 mb-4"
 	in:fly={{ x: 200, delay }}
+	out:fly={{ x: -200, delay }}
 >
 	<img
 		src={img}
