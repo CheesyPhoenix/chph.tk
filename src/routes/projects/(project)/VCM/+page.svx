@@ -1,3 +1,11 @@
+<svelte:head>
+	<title>CheesyPhoenix | VC-Manager</title>
+	<meta
+		name="description"
+		content="VC-Manager is a simple discord bot that manages your voice channels for you. It makes sure that there is always an availible vc and deletes unused ones, all while maintaining an orderly look."
+	/>
+</svelte:head>
+
 # [VC-Manager](https://github.com/CheesyPhoenix/VC-Manager)
 <p style="margin-top: -20px;">- The Discord bot that optimizes your VCs</p>
 
@@ -5,7 +13,7 @@ VC-Manager is a simple bot that manages your voice channels for you.
 It makes sure that there is always an availible vc and deletes unused ones, 
 all while maintaining an orderly look.
 
-![image](https://user-images.githubusercontent.com/30808373/210175022-3c20431a-e75e-4eaa-9f93-778cab66f785.png)
+![image of vcs managed by vc-manager](https://user-images.githubusercontent.com/30808373/210175022-3c20431a-e75e-4eaa-9f93-778cab66f785.png)
 
 ### Take control of your VCs today, and [add VC Manager to your server](https://discord.com/api/oauth2/authorize?client_id=400262929221550080&permissions=16&scope=bot)
 

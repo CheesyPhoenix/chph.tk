@@ -20,8 +20,14 @@
         <priority>0.8</priority>
       </url>
       <url>
-        <loc>https://betterschool.cheesyphoenix.tk</loc>
-        <lastmod>2022-12-06</lastmod>
+        <loc>https://cheesyphoenix.tk/projects/BetterSchool</loc>
+        <lastmod>2023-01-08</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.5</priority>
+      </url>
+      <url>
+        <loc>https://cheesyphoenix.tk/projects/VCM</loc>
+        <lastmod>2023-01-08</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.5</priority>
       </url>

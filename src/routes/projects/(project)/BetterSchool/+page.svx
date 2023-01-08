@@ -3,6 +3,14 @@
     import animatedDetails from "svelte-animated-details"
 </script>
 
+<svelte:head>
+	<title>CheesyPhoenix | BetterSchool</title>
+	<meta
+		name="description"
+		content="BetterSchool is a better way of viewing your Visma InSchool schedule. Don't waste time logging in to the app every time you just want to check when your next class starts, use BetterSchool instead!"
+	/>
+</svelte:head>
+
 # [BetterSchool](https://github.com/CheesyPhoenix/BetterSchool) 
 
 <img src={BetterSchoolLogo} width=100 style="float: right; margin-top: -71px;" alt="Betterschool logo">
