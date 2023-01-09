@@ -81,11 +81,11 @@ Run with:
 Linux:
 
 ```
-docker run \
--p 80:80 \
---restart unless-stopped \
--e VITE_API_LOC={INSERT URL OF YOUR API HERE OR REMOVE THIS ARG TO USE THE OFFICIAL API} \
--d \
+docker run \\
+-p 80:80 \\
+--restart unless-stopped \\
+-e VITE_API_LOC={INSERT URL OF YOUR API HERE OR REMOVE THIS ARG TO USE THE OFFICIAL API} \\
+-d \\
 docker.chph.tk/cheesyphoenix/betterschool-web:latest
 ```
 
