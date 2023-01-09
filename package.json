@@ -10,7 +10,7 @@
 		"check": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json",
 		"check:watch": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json --watch",
 		"test:unit": "vitest",
-		"publish": "docker build -t docker.cheesyphoenix.tk/cheesyphoenix/chph.tk --push ."
+		"publish": "docker buildx build -t docker.chph.tk/cheesyphoenix/chph.tk --push ."
 	},
 	"devDependencies": {
 		"@playwright/test": "^1.28.1",
