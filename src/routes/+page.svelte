@@ -1,4 +1,5 @@
 <script lang="ts">
+	import Header from "$lib/components/Header.svelte";
 	import Typewriter from "svelte-typewriter";
 	import { fade } from "svelte/transition";
 </script>
@@ -10,6 +11,8 @@
 		content="Welcome to CheesyPhoenix.tk. What do you want to do? Browse my projects or view my GitHub page?"
 	/>
 </svelte:head>
+
+<Header />
 
 <div class="flex w-screen justify-center absolute left-2 top-40 h-max">
 	<Typewriter mode={"cascade"} interval={25}>
