@@ -20,7 +20,7 @@
 		alt={"Image of " + name}
 		width="128"
 		height="128"
-		class="h-[128px] rounded-[1.8rem]"
+		class="h-[128px] rounded-2xl"
 	/>
 
 	<div class="min-h-[128px]">

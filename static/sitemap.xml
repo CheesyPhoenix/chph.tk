@@ -31,4 +31,10 @@
         <changefreq>weekly</changefreq>
         <priority>0.5</priority>
       </url>
+      <url>
+        <loc>https://cheesyphoenix.tk/projects/BetterSchool-SDK-rust</loc>
+        <lastmod>2023-01-22</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.5</priority>
+      </url>
     </urlset>

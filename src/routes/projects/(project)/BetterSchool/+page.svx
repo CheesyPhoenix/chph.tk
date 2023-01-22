@@ -1,5 +1,5 @@
 <script lang="ts">
-	import BetterSchoolLogo from "$lib/betterschool-icon-512.png";
+	import BetterSchoolLogo from "$lib/img/betterschool-icon-512.png";
     import animatedDetails from "svelte-animated-details"
 </script>
 

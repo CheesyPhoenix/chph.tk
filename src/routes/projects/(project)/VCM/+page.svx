@@ -1,3 +1,8 @@
+<script lang="ts">
+	import VCM_example from "$lib/img/VCM-example.png";
+	import VCM_logo from "$lib/img/VCM.png";
+</script>
+
 <svelte:head>
 	<title>CheesyPhoenix | VC-Manager</title>
 	<meta
@@ -7,17 +12,24 @@
 </svelte:head>
 
 # [VC-Manager](https://github.com/CheesyPhoenix/VC-Manager)
+<img
+	src={VCM_logo}
+	width="100"
+	style="float: right; margin-top: -71px;"
+	class="rounded-2xl"
+	alt="Betterschool-sdk logo"
+/>
+
 <p style="margin-top: -20px;">- The Discord bot that optimizes your VCs</p>
 
-VC-Manager is a simple bot that manages your voice channels for you. 
-It makes sure that there is always an availible vc and deletes unused ones, 
-all while maintaining an orderly look.
+VC-Manager is a simple bot that manages your voice channels for you. It makes
+sure that there is always an availible vc and deletes unused ones, all while
+maintaining an orderly look. ![vcs managed by vc-manager]({VCM_example}) ###
+Take control of your VCs today, and [add VC Manager to your
+server](https://discord.com/api/oauth2/authorize?client_id=400262929221550080&permissions=16&scope=bot)
 
-![vcs managed by vc-manager](https://user-images.githubusercontent.com/30808373/210175022-3c20431a-e75e-4eaa-9f93-778cab66f785.png)
+<hr />
 
-### Take control of your VCs today, and [add VC Manager to your server](https://discord.com/api/oauth2/authorize?client_id=400262929221550080&permissions=16&scope=bot)
-
-<hr>
-
-Also, if you want to self host the bot you can get the image from [here](https://web.docker.cheesyphoenix.tk/tag/cheesyphoenix/vc-manager/latest/).
+Also, if you want to self host the bot you can get the image from
+[here](https://web.docker.cheesyphoenix.tk/tag/cheesyphoenix/vc-manager/latest/).
 Just make sure to add the environment variable `TOKEN` with your own bot token.

@@ -38,3 +38,20 @@ code::before {
 code::after {
 	display: none;
 }
+
+@font-face {
+	font-family: "JetBrains-Mono";
+	src: url("$lib/JetBrainsMono-Regular.woff2");
+}
+
+pre {
+	@apply bg-gray-800 bg-opacity-40 !important;
+	text-shadow: none !important;
+	font-family: "JetBrains-Mono" !important;
+}
+
+code {
+	@apply bg-transparent !important;
+	text-shadow: none !important;
+	font-family: "JetBrains-Mono" !important;
+}

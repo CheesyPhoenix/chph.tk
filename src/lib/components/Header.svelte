@@ -1,4 +1,8 @@
-<header>
+<script lang="ts">
+	import { fade } from "svelte/transition";
+</script>
+
+<header out:fade={{ duration: 0 }}>
 	<a href="/" class="inline hover:underline underline-offset-2"
 		>CheesyPhoenix.tk</a
 	>

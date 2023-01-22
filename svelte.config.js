@@ -10,7 +10,7 @@ const config = {
 		preprocess({
 			postcss: true,
 		}),
-		mdsvex(),
+		mdsvex({}),
 	],
 
 	extensions: [".svelte", ".svx"],
