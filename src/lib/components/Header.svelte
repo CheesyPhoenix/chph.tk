@@ -2,7 +2,7 @@
 	import { fade } from "svelte/transition";
 </script>
 
-<header out:fade={{ duration: 0 }}>
+<header out:fade={{ duration: 0 }} class="absolute top-2 left-2">
 	<a href="/" class="inline hover:underline underline-offset-2"
 		>CheesyPhoenix.tk</a
 	>
@@ -20,3 +20,4 @@
 		Github</a
 	>
 </header>
+<br />
