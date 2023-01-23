@@ -14,6 +14,8 @@
 <img src={BetterSchoolSDKLogo} width=100 style="float: right; margin-top: -71px;" alt="Betterschool-sdk logo">
 
 [View on crates.io](https://crates.io/crates/betterschool-sdk)
+|
+[View on GitHub](https://github.com/CheesyPhoenix/betterschool-sdk)
 
 
 This is the official rust BetterSchool SDK. It is a fully typed wrapper for interacting with the BetterSchool API.
@@ -23,7 +25,7 @@ This is the official rust BetterSchool SDK. It is a fully typed wrapper for inte
 
 ```toml
 [dependecies]
-betterschool-sdk = "1.0.3"
+betterschool-sdk = "1.0.4"
 ```
 
 or
