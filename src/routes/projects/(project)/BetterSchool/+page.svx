@@ -38,7 +38,7 @@ Thats easy. Just head to https://betterschool.chph.tk and simply download the we
 ## API documentation
 
 The BetterSchool API is completely open and is hosted at `https://api.betterschool.chph.tk/`.
-See [the documentation page](https://doc.api.betterschool.chph.tk) for usage.
+See [the documentation page](https://api.betterschool.chph.tk/doc) for usage.
 
 
 ## Self hosting
@@ -54,7 +54,7 @@ Run with:
 
 Linux:
 
-```
+```ts
 docker run \\
 -p 8080:8080 \\
 -v betterschool-api-data:/src/creds \\
@@ -67,20 +67,40 @@ docker.chph.tk/cheesyphoenix/betterschool-api:latest
 
 One liner:
 
-```
+```ts
 docker run -p 8080:8080 -v betterschool-api-data:/src/creds -e iv={INSERT RANDOM 16 CHARACTER STRING HERE} -e key={INSERT RANDOM 32 CHARACTER STRING HERE} --restart unless-stopped -d docker.chph.tk/cheesyphoenix/betterschool-api:latest
 ```
+
+## Migrating from v1 to v2
+The API has recently been redesigned from the ground up, if you were already hosting a v1 API follow these steps to migrate your old data:
+
+```ts
+docker run \\
+-p 8080:8080 \\
+-v {INSERT YOUR OLD VOLUME NAME HERE}:/app/creds \\
+-v {INSERT YOUR NEW VOLUME NAME HERE}:/app/data \\
+-e iv={INSERT SAME AS OLD 16 CHARACTER STRING HERE} \\
+-e key={INSERT SAME AS OLD 32 CHARACTER STRING HERE} \\
+--restart unless-stopped \\
+-d \\
+docker.chph.tk/cheesyphoenix/betterschool-api-v2:latest
+```
+
+After running this, it should automatically migrate your old data. After the migration is complete, the API should work as normal. You may also remove the old volume but this is not required.
+
 </div>
 </details>
 
 <details use:animatedDetails>
 <summary><h3>Web</h3></summary>
 <div class="content">
+Note: using a custom api does not yet work. This is being worked on, see <a href="https://github.com/CheesyPhoenix/BetterSchool/issues/54">#54</a>
+
 Run with:
 
 Linux:
 
-```
+```ts
 docker run \\
 -p 80:80 \\
 --restart unless-stopped \\
@@ -91,7 +111,7 @@ docker.chph.tk/cheesyphoenix/betterschool-web:latest
 
 One liner:
 
-```
+```ts
 docker run -p 80:80 --restart unless-stopped -e VITE_API_LOC={INSERT URL OF YOUR API HERE OR REMOVE THIS ARG TO USE THE OFFICIAL API} -d docker.chph.tk/cheesyphoenix/betterschool-web:latest
 ```
 </div>
